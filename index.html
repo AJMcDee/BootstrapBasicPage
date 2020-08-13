@@ -33,83 +33,84 @@
     ></script>
   </head>
   <body>
-    <!-- Header title and byline -->
-    <div class="container-fluid rounded bg-info text-center p-4 pb-5">
-      <h1>
-        Bootstrap Page
-      </h1>
-      <h3 class="pb-5">
-        Create this
-      </h3>
-    </div>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand navbar-light justify-content-center border-bottom">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- 3-column body information  -->
-    <div class="container-fluid border-top">
-      <div class="row">
-        <div class="col p-3 px-4">
-          <h2>Column 1</h2>
-          <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              maximus neque ut consequat sagittis. Mauris ut lacus id felis
-              efficitur varius. Nulla mauris ex, eleifend id fermentum quis, dictum
-              ut sapien.
-          </p>
-        </div>
-        <div class="col p-3 px-4">
-         <h2>Column 2</h2>
-          <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              maximus neque ut consequat sagittis. Mauris ut lacus id felis
-              efficitur varius. Nulla mauris ex, eleifend id fermentum quis, dictum
-              ut sapien.
-          </p>
-        </div>
-        <div class="col p-3 px-4">
-          <h2>Column 3</h2>
-          <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              maximus neque ut consequat sagittis. Mauris ut lacus id felis
-              efficitur varius. Nulla mauris ex, eleifend id fermentum quis, dictum
-              ut sapien.
-          </p>
-        </div>
+    <header>
+      <!-- Header title and byline -->
+      <div class="container-fluid rounded bg-info text-center p-4 pb-5">
+        <h1>
+          Bootstrap Page
+        </h1>
+        <h3 class="pb-5">
+          Create this
+        </h3>
       </div>
-    </div>
 
-    <!-- 4-column Card setup -->
-    <div class="container-fluid my-5 row">
-        <div class="col-3">
-          <div class="card bg-primary card-body text-center">
-            <h5>First Card</h5>
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand navbar-light justify-content-center border-bottom"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 3-column body information  -->
+      <section class="container-fluid border-top">
+        <div class="row">
+          <div class="col p-3 px-4">
+            <h2>Column 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              maximus neque ut consequat sagittis. Mauris ut lacus id felis
+              efficitur varius. Nulla mauris ex, eleifend id fermentum quis,
+              dictum ut sapien.
+            </p>
+          </div>
+          <div class="col p-3 px-4">
+            <h2>Column 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              maximus neque ut consequat sagittis. Mauris ut lacus id felis
+              efficitur varius. Nulla mauris ex, eleifend id fermentum quis,
+              dictum ut sapien.
+            </p>
+          </div>
+          <div class="col p-3 px-4">
+            <h2>Column 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              maximus neque ut consequat sagittis. Mauris ut lacus id felis
+              efficitur varius. Nulla mauris ex, eleifend id fermentum quis,
+              dictum ut sapien.
+            </p>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card bg-warning card-body text-center">
-            <h5>Second Card</h5>
-          </div>
+      </section>
+
+      <!-- 4-column Card setup -->
+      <section class="container-fluid my-5 card-deck">
+        <div class="card bg-primary card-body text-center">
+          <h5 class="my-auto">First Card</h5>
         </div>
-        <div class="col-3">
-          <div class="card bg-success card-body text-center">
-            <h5>Third Card</h5>
-          </div>
+
+        <div class="card bg-warning card-body text-center">
+          <h5 class="my-auto">Second Card</h5>
         </div>
-        <div class="col-3">
-          <div class="card bg-danger card-body text-center">
-            <h5>Fourth Card</h5>
-          </div>
+
+        <div class="card bg-success card-body text-center">
+          <h5 class="my-auto">Third Card</h5>
         </div>
-    </div>
+
+        <div class="card bg-danger card-body text-center">
+          <h5 class="my-auto">Fourth Card</h5>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
     <div class="container-fluid bg-info text-center py-3">
